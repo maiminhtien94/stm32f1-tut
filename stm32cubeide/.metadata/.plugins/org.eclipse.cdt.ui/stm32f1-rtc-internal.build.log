@@ -1,0 +1,10 @@
+22:52:18 **** Incremental Build of configuration Debug for project stm32f1-rtc-internal ****
+make -j8 all 
+arm-none-eabi-size   stm32f1-rtc-internal.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8664	     20	   1588	  10272	   2820	stm32f1-rtc-internal.elf
+Finished building: default.size.stdout
+ 
+
+22:52:18 Build Finished. 0 errors, 0 warnings. (took 173ms)
+
