@@ -29,7 +29,16 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+typedef struct {
+	uint8_t	sec;
+	uint8_t min;
+	uint8_t hour;
+	uint8_t dow;
+	uint8_t date;
+	uint8_t month;
+	uint16_t year;
+}DS1307_STRUCT;
+DS1307_STRUCT	ds1307;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -66,6 +75,9 @@ void rtc_entry(void const * argument);
 /* Lookup table for the days of week. */
 const char *DAYS_OF_WEEK[7] = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 char buffer[100] = { 0 };
+
+uint8_t date;
+
 /* USER CODE END 0 */
 
 /**
@@ -279,13 +291,13 @@ void rtc_entry(void const * argument)
   for(;;)
   {
 	/* Get current date and time. */
-	uint8_t date = DS1307_GetDate();
-	uint8_t month = DS1307_GetMonth();
-	uint16_t year = DS1307_GetYear();
-	uint8_t dow = DS1307_GetDayOfWeek();
-	uint8_t hour = DS1307_GetHour();
-	uint8_t minute = DS1307_GetMinute();
-	uint8_t second = DS1307_GetSecond();
+	  ds1307.date = DS1307_GetDate();
+	  ds1307.month  = DS1307_GetMonth();
+	  ds1307.year = DS1307_GetYear();
+	  ds1307.dow = DS1307_GetDayOfWeek();
+	  ds1307.hour = DS1307_GetHour();
+	  ds1307.min = DS1307_GetMinute();
+	  ds1307.sec = DS1307_GetSecond();
 	int8_t zone_hr = DS1307_GetTimeZoneHour();
 	uint8_t zone_min = DS1307_GetTimeZoneMin();
     osDelay(1);

@@ -91,7 +91,7 @@
                                     									
                                     <listOptionValue builtIn="false" value="../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/home/tien/wp/github/stm32cubeide/stm32f1-rtos-rtc/UserLib"/>
+                                    <listOptionValue builtIn="false" value="/home/tien/wp/github/stm32f1-tut/stm32cubeide/stm32f1-rtos-rtc/UserLib"/>
                                     								
                                 </option>
                                 								

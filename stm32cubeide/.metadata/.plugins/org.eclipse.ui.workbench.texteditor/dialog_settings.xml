@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="//&#x09;uint8_t date = DS1307_GetDate();"/>
+		<item key="selection" value="DS1307_REG_RAM"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="DS1307_REG_RAM"/>
+			<item value="DS1307_REG_CENT"/>
+			<item value="DS1307_REG_UTC_HR"/>
+			<item value="DS1307_GetClockHalt"/>
+			<item value="buffer[1]=D2B(sec);"/>
+			<item value="&#x09;buffer[1]=DS1307_DecodeBCD(sec);"/>
+			<item value="&#x09;ds1307.sec=DS1307_EncodeBCD(buffer[0]);"/>
 			<item value="//&#x09;uint8_t date = DS1307_GetDate();"/>
 		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="757"/>
+		<item key="DIALOG_Y_ORIGIN" value="231"/>
+		<item key="DIALOG_WIDTH" value="348"/>
+		<item key="DIALOG_HEIGHT" value="437"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 	</section>
 </section>

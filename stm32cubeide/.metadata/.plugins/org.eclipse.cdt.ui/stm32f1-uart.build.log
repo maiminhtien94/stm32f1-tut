@@ -1,7 +1,7 @@
-21:13:42 **** Clean-only build of configuration Debug for project stm32f1-uart ****
+21:42:43 **** Clean-only build of configuration Debug for project stm32f1-uart ****
 make -j8 clean 
-rm -rf *
- 
+make: *** No rule to make target 'clean'.  Stop.
+"make -j8 clean" terminated with exit code 2. Build might be incomplete.
 
-21:13:42 Build Finished. 0 errors, 0 warnings. (took 112ms)
+21:42:43 Build Failed. 1 errors, 0 warnings. (took 118ms)
 
