@@ -1,7 +1,10 @@
-21:42:43 **** Clean-only build of configuration Debug for project stm32f1-uart ****
-make -j8 clean 
-make: *** No rule to make target 'clean'.  Stop.
-"make -j8 clean" terminated with exit code 2. Build might be incomplete.
+07:05:01 **** Incremental Build of configuration Debug for project stm32f1-uart ****
+make -j8 all 
+arm-none-eabi-size   stm32f1-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12780	    140	   1668	  14588	   38fc	stm32f1-uart.elf
+Finished building: default.size.stdout
+ 
 
-21:42:43 Build Failed. 1 errors, 0 warnings. (took 118ms)
+07:05:01 Build Finished. 0 errors, 0 warnings. (took 182ms)
 

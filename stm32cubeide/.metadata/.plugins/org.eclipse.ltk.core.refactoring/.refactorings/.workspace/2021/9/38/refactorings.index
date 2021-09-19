@@ -1,0 +1,3 @@
+1631981166908	Delete resource 'stm32f1-spi-sdcard/Middlewares'
+1631981193939	Delete resource 'stm32f1-spi-sdcard/Core/Src/fatfs_sd.c'
+1631981201706	Delete resource 'stm32f1-spi-sdcard/Core/Inc/fatfs_sd.h'
