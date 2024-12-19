@@ -1,7 +1,0 @@
-21:25:13 **** Clean-only build of configuration Debug for project stm32f1107-gpio ****
-make -j8 clean 
-rm -rf *
- 
-
-21:25:13 Build Finished. 0 errors, 0 warnings. (took 171ms)
-

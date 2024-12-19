@@ -1,7 +1,0 @@
-17:03:41 **** Clean-only build of configuration Debug for project stm32f1-adc-scan-mode ****
-make -j8 clean 
-rm -rf *
- 
-
-17:03:41 Build Finished. 0 errors, 0 warnings. (took 174ms)
-

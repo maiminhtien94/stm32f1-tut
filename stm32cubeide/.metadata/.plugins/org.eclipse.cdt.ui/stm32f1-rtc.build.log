@@ -1,7 +1,0 @@
-21:42:17 **** Clean-only build of configuration Debug for project stm32f1-rtc ****
-make -j8 clean 
-make: *** No rule to make target 'clean'.  Stop.
-"make -j8 clean" terminated with exit code 2. Build might be incomplete.
-
-21:42:17 Build Failed. 1 errors, 0 warnings. (took 119ms)
-
